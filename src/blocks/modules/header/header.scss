@@ -31,8 +31,7 @@ a:hover {
 
 .header {
     padding: 10px 0;
-    background: url(../image/background-header.png) #013056 center center no-repeat;
-    background-color: ;
+    background: url(../../../img/Bg1.png) $primary-1 center center no-repeat;
 }
 
 .header div {
@@ -40,22 +39,22 @@ a:hover {
 }
 
 .header p {
-    color: #caddea;
-    font-family: "Roboto-Thin";
+    color: $primary-4;
+    font-family: $font-thin;
     font-size: 20px;
     font-weight: 100;
 }
 
 .header p>span {
     font-weight: 400;
-    font-family: "Roboto-Regular";
+    font-family: $font-regular;
 }
 
 .header a {
     display: flex;
     align-items: center;
-    color: #ffffff;
-    font-family: "Roboto-Regular";
+    color: $base-light;
+    font-family: $font-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -67,7 +66,7 @@ a:hover {
 }
 
 .sprite {
-    background-image: url(../image/css_sprites.png);
+    background-image: url(../../../img/sprite/css_sprites.png);
     display: inline-block;
 }
 
@@ -88,7 +87,7 @@ a:hover {
 .burger {
     width: 65px;
     height: 5px;
-    background-color: #ffffff;
+    background-color: $base-light;
     display: block;
     position: relative;
 }
@@ -99,7 +98,7 @@ a:hover {
     width: 65px;
     height: 5px;
     top: 9px;
-    background-color: #ffffff;
+    background-color: $base-light;
     display: block;
 
 }
@@ -110,17 +109,14 @@ a:hover {
     width: 65px;
     height: 5px;
     top: -9px;
-    background-color: #ffffff;
+    background-color: $base-light;
     display: block;
 }
 
-.header .row div:nth-of-type(5) {
-    text-align: right;
-}
 
 /* menu */
 .menu {
-    background-color: #1b7fd0;
+    background-color: $primary-3;
 }
 
 .menu div {
@@ -129,8 +125,8 @@ a:hover {
 
 .menu a {
     align-self: center;
-    color: #ffffff;
-    font-family: "Roboto-Regular";
+    color: $base-light;
+    font-family: $font-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 42px;
@@ -141,8 +137,8 @@ a:hover {
 .menu,
 span {
     align-self: center;
-    color: #caddea;
-    font-family: "Roboto-Regular";
+    color: $primary-4;
+    font-family: $font-regular;
     font-size: 20px;
     font-weight: 400;
     line-height: 42px;
@@ -153,8 +149,8 @@ span {
 .menu .row div:nth-of-type(4) p,
 .menu .row div:nth-of-type(5) p {
     text-align: right;
-    color: #caddea;
-    font-family: "Roboto-Thin";
+    color: $primary-4;
+    font-family: $font-thin;
     font-size: 16px;
     font-weight: 100;
     text-transform: none;
@@ -164,8 +160,8 @@ span {
 .menu .row div:nth-of-type(4) p span,
 .menu .row div:nth-of-type(5) p span {
     align-self: center;
-    color: #caddea;
-    font-family: "Roboto-Regular";
+    color: $primary-4;
+    font-family: $font-regular;
     font-size: 16px;
     font-weight: 400;
     line-height: 42px;
@@ -197,8 +193,8 @@ span {
 
 .menu ul li:hover,
 .menu ul a:hover {
-    background-color: #caddea;
-    color: #1b7fd0;
+    background-color: $primary-4;
+    color: $primary-3;
 }
 
 .menu ul a:hover~span {

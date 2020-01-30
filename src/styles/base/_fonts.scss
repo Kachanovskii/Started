@@ -1,40 +1,60 @@
 @font-face {
+    font-family: 'Roboto-Light';
+    src: url('../../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Roboto-Regular';
-    src: url('../../fonts/roboto/Roboto-Regular.woff2') format('woff2'),
-        url('../../fonts/roboto/Roboto-Regular.woff') format('woff');
+    src: url('../../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Thin';
-    src: url('../../fonts/roboto/Roboto-Thin.woff2') format('woff2'),
-        url('../../fonts/roboto/Roboto-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../../fonts/roboto/Roboto-Bold.woff2') format('woff2'),
-        url('../../fonts/roboto/Roboto-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
     font-family: 'Roboto-Medium';
-    src: url('../../fonts/roboto/Roboto-Medium.woff2') format('woff2'),
-        url('../../fonts/roboto/Roboto-Medium.woff') format('woff');
+    src: url('../../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../../fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../fonts/Roboto-Thin.woff2') format('woff2'),
+        url('../../fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
 
 
+
+
+
+
+
+
+
+
+$font-regular:'Roboto-Regular';
+$font-medium:'Roboto-Medium';
+$font-bold:'Roboto-Bold';
+$font-thin: 'Roboto-Thin';
+$font-light: 'Roboto-Light';
 
 
 $font-thin:'Roboto-Thin';
-$font-regular:'Roboto-Regular';
-$font-bold:'Roboto-Bold';
-$font-medium:'Roboto-Medium';
+
 
 
