@@ -1,0 +1,108 @@
+.section-1{
+    background: url(../../../img/Bg1.png)#f4f6fa no-repeat;
+    .container{
+        padding: 35px 0;
+        .triangle-container {
+            filter: drop-shadow(2px 5px 7px rgba(155, 182, 190, 0.75));
+            h2 {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $primary-3;
+                font-family: $font-bold;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                background-color: $primary-4;
+            }
+            div {
+                width: 0;
+                height: 0;
+                border-top: 18px solid $primary-4;
+                border-right: 18px solid transparent;
+                margin: 0;
+            }
+        }
+        .content-1{
+            text-align: justify;
+           margin-top: 20px;
+            p{
+                font-family: $font-narrow;
+                font-size: 18px;
+                color: $base-dark;
+            }
+        }
+        .content-2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 25px;
+            span {
+                display: block;
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                background-color: $primary-4;
+                margin: 0 auto;
+                background-image: url(../../../img/sprite/css_sprites.png);
+
+            div{
+                min-height: 100px;
+            }
+
+                h4 {
+                color: $primary-3;
+                font-family: $font-bold;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                text-transform: uppercase;
+            }
+            p, ul {
+                color: $base-dark;
+                font-family: $font-narrow;
+                font-size: 16px;
+                text-align: justify;
+            }
+            button {
+                padding: 6px 10px;
+                color: $base-light;
+                font-family: $font-regular;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: uppercase;
+                background-color: $primary-2;
+                border: none;
+                align-self: center;
+                margin-top: auto;
+            }
+            .box-1, .box-2, .box-3, .box-4{
+                height: 100%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .box-1{
+                span{
+                    background-position:3px -433px;
+                }
+            }
+            .box-2{
+                span{
+                    background-position:12px -933px;
+                }
+            }
+            .box-3{
+                span{
+                    background-position:15px -599px;
+                }
+           }   
+            .box-4{
+                span{
+                    background-position: 22px -282px;
+                }
+           }   
+        }
+    }
+}
