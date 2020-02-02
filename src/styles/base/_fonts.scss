@@ -46,6 +46,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Rajdhani-Bold';
+    src: url('../../fonts/Rajdhani-Bold.woff2') format('woff2'),
+        url('../../fonts/Rajdhani-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 
 
 
@@ -61,6 +70,7 @@ $font-bold:'Roboto-Bold';
 $font-thin: 'Roboto-Thin';
 $font-light: 'Roboto-Light';
 $font-narrow: 'Arial Narrow';
+$font-rajdhani-bold: 'Rajdhani-Bold';
 
 
 
