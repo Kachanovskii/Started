@@ -1,8 +1,9 @@
 .price{
     background: $primary-2 url(../../../img/Bg1.png) ;
     .container{
-        padding: 25px 0;
+        padding: 25px 15px;
         .triangle-container {
+            padding: 0;
             filter: drop-shadow(2px 4px 7px rgba(2, 68, 121, 0.75));
 
             h2 {
