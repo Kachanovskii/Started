@@ -18,6 +18,7 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 background-color: $primary-4;
+                text-align: center;
             }
 
             div {
@@ -48,12 +49,9 @@
             @media (max-width:1200px){
                 grid-column-gap: 15px; 
             }
-            @media (max-width:995px){
+            @media (max-width:1024px){
                 grid-column-gap: 30px; 
                 grid-template-columns: 1fr 1fr;
-            }
-            @media (max-width:770px){
-                grid-template-columns: 1fr;
             }
             span {
                 display: block;
@@ -138,6 +136,7 @@
             }
 
             .triangle-container-2:hover {
+                transition: 1s all ease;
                 background-color: $base-light;
                 filter: drop-shadow(2px 5px 7px rgba(155, 182, 190, 0.75));
             }
@@ -213,8 +212,13 @@
           }
           .tabs label{
               width: 25%;
-              transform: scale(0.7);
+              transform: scale(0.9);
           }
+          @media(max-width: 500px){
+            .tabs label{
+                transform: scale(0.7);
+            }
+        }
           @media(max-width: 350px){
             .tabs label{
                 transform: scale(0.6);
@@ -229,7 +233,6 @@
             margin: 0 auto;
             background-image: url(../../../img/sprite/css_sprites.png);
             background-color: $primary-4;
-            // transform: scale(0.7);
           }
 
           .tabs label:nth-of-type(1) span {

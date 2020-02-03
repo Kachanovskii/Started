@@ -1,5 +1,5 @@
 .section-2{
-    background: $primary-3;
+    background: url(../../../img/Bg1.png) $primary-3 center no-repeat;
     .container{
         padding: 39px 0;
         .triangle-container {
@@ -18,6 +18,19 @@
                 background-color: $primary-4;
                 line-height: 32px;
             }
+            @media(max-width:390px){
+                h2{
+                    font-size:22px;
+                }
+                div:nth-of-type(2){
+                    span {
+                         font-size: 18px;
+                         text-transform: none;
+                         margin-bottom: 20px;
+                    }
+                }
+               
+            }
 
             div {
                 width: 0;
@@ -25,10 +38,12 @@
                 border-top: 18px solid $primary-4;
                 border-right: 18px solid transparent;
                 margin: 0;
+                
             }
         }
         div:nth-of-type(2){
             text-align: center;
+            
         }
         span {
             padding: 3px;
@@ -43,6 +58,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             column-gap: 30px;
+            padding: 0 30px;
             @media (max-width:991px){
                 grid-column-gap: 20px; 
                 grid-template-columns: 1fr 1fr 1fr;

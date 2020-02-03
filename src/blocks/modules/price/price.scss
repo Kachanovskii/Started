@@ -46,6 +46,16 @@
                         top: 2px;
                         right: 305px;
                     }
+                    @media(max-width:992px){
+                        span:nth-of-type(1){
+                            font-size: 35px;
+                            top: 0px;
+                            right: 263px;
+                        }  
+                        span:nth-of-type(3),span:nth-of-type(2){
+                            font-size: 18px;
+                        }
+                    }
                     span:nth-of-type(2) {
                         color: $order-color;
                         font-family: $font-regular;
@@ -73,12 +83,14 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 100px;
             grid-row-gap: 25px;
-            padding: 15px 15px 0 30px;
+            
             @media (max-width:1200px){
-                grid-column-gap: 50px; 
+                grid-column-gap: 39px; 
+                margin: 0;
             }
             @media (max-width:996px){
                 grid-column-gap: 20px; 
+                
             }
             @media (max-width:770px){
                 grid-template-columns: 1fr;
@@ -123,6 +135,7 @@
                     align-self: flex-end;
                     line-height: 1.1;
                 }
+               
                
             }
         }

@@ -97,7 +97,7 @@ a:hover {
     position: absolute;
     width: 65px;
     height: 5px;
-    top: 9px;
+    top: 15px;
     background-color: $base-light;
     display: block;
 
@@ -108,7 +108,7 @@ a:hover {
     position: absolute;
     width: 65px;
     height: 5px;
-    top: -9px;
+    top: -15px;
     background-color: $base-light;
     display: block;
 }
@@ -117,6 +117,11 @@ a:hover {
 /* menu */
 .menu {
     background-color: $primary-3;
+}
+@media(max-width:991px){
+    .menu{
+        padding: 10px 0;
+    }
 }
 
 .menu div {
@@ -235,5 +240,18 @@ span {
 
     .menu .row ul a {
         padding: 0 5px;
+    }
+}
+@media(max-width:580px) {
+    .header {
+        padding:9px 15px;
+    }
+    .menu{
+        padding: 15px;
+    }
+}
+@media(max-width:300px) {
+    .menu .row div:nth-of-type(5) p{
+        font-size: 15px;
     }
 }

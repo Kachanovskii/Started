@@ -5,6 +5,9 @@
     .logo {
         margin-top: 35px;
     }
+    .logo img{
+        width: 100%;
+    }
 
     .triangle-container {
         margin-top: 32px;
@@ -28,11 +31,12 @@
             font-size: 18px;
             line-height: 15px;
             text-transform: uppercase;
-            padding: 10px 55px;
+            padding: 10px 15px;
             background-color: $primary-4;
+            text-align: center;
             span:nth-of-type(1) {
                 color: $order-color;
-                font-family: $font-regular;
+                font-family: $font-bold;
                 font-size: 34px;
                 font-weight: 700;
             }
@@ -76,7 +80,7 @@
     .content {
         div:nth-of-type(4) {
             margin-top: 15px;
-            margin-left: 30px;
+            margin-left: 15px;
         }
 
         h3 {
@@ -171,6 +175,9 @@
 
 @media (max-width:992px) {
     .banner {
+        .content div:nth-of-type(4) {
+            margin-left: 35px;
+        }
         .content .button {
             padding-left: 0;
             margin-left: 25px;
@@ -181,19 +188,47 @@
         }
 
         .triangle-container {
-            padding: 0;
+            padding: 0 15px;
 
             h1 {
                 padding: 20px 20px;
+                font-size: 30px;
             }
         }
+        
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .banner{
         background: url(../../../img/bg-m.png) no-repeat;
         background-size: contain;
+        .triangle-container h1 {
+            padding: 12px 15px;
+        }
+        .triangle-container-2 p{
+            padding: 3px;
+        }
+        .triangle-container div {
+            width: 0;
+            height: 0;
+            border-top: 20px solid #caddea;
+            border-right: 20px solid transparent;
+            margin: 0;
+        }
+        .content div:nth-of-type(4) {
+            width: 100%;
+            margin-left: 35px;
+            padding: 0;
+        }
+         ul li {
+             text-align: justify;
+             width: 100%;
+         }
+         .content .button button{
+             height: 35px;
+             font-size: 15px;
+         }
        .content{
         .button {
             display: grid;
