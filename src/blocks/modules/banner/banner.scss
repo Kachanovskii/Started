@@ -39,12 +39,19 @@
                 font-family: $font-bold;
                 font-size: 34px;
                 font-weight: 700;
+                @media(max-width:768px){
+                    font-size: 26px;
+            }
             }
             span:nth-of-type(2) {
                 color: $order-color;
                 font-family: $font-regular;
                 font-size: 26px;
+                @media(max-width:768px){
+                    font-size: 25px;
             }
+            }
+            
         }
     }
 
